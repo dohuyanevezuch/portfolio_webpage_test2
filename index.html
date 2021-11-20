@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage very simple demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,simple" />
+	<meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/fullpage.css" />
+    <link rel="stylesheet" href="CSS/stules.css">
+</head>
+<body>
+
+<div id="fullpage">
+
+	<div class="section active HomePage" id="section0">
+        <h1 class="Text hh1 hello">Hello</h1>
+        <h2 class="Text hh2 My_name">My name is Viktor.</h2>
+        <h2 class="Text hh2 ThisIsMy">This is my training webpage!</h2>
+        
+        <div class="arrow-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+
+	<div class="section MySkill" id="section1">
+
+	    <div class="slide SlideSkill MySkill_Programs">
+            <div class="skl contetn_oneone">
+                <div class="block_content No1">
+
+                    <h1 class="hhh1 skl_html_title">Html</h1>
+                    <p class="ptext skl_html">I'm practicing building websites on html:з</p>
+                </div>
+                
+                <img class="img shtml" src="/img/html-picture.png" alt="html">
+    
+                
+            </div>
+        </div>
+
+	    <div class="slide SlideSkill MySkill_Web">
+
+            <div class="skl content_twotwo">
+
+                <img class="img scss" src="/img/css-picture.png" alt="css">
+
+                <div class="block_content No2">
+                    <h1 class="hhh1 skl_css_title">CSS</h1>
+                    <p class="ptext skl_css">I also practice with styles</p>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+
+	</div>
+
+
+	<div class="section Learning" id="section2">
+
+        <div class="slide Learning_JS">
+
+            <div class="lern content_threethree">
+
+                <img class="img jscript" src="/img/js.svg" alt="JS">
+
+                <div class="block_content No3">
+
+                    <h1 class="hhh1 lrn_js_title">JavaScript</h1>
+                    <p class="ptext lrn_js">I have plans to learn JS to make sites even better!</p>
+                </div>
+                
+                
+    
+                
+            </div>
+            
+        
+        </div>
+
+        <div class="slide Learning_DB">
+
+            <div class="lern content_fourfour">
+                <div class="block_content No4">
+
+                    <h1 class="hhh1 lrn_DB_title">DataBase</h1>
+                    <p class="ptext lrn_DB">And also study databases to be able to make complex-structured sites</p>
+                </div>
+                
+                <img class="img DataB" src="/img/DB.svg" alt="DB">
+        </div>
+
+    </div>
+
+    
+
+
+</div>
+
+//<!--
+  TODO: 
+<ul id="menu">
+    <li class="menu-active menu-wordpress">
+        <a href="#" rel="noopener">
+            <span id="menu-theme-desktop">WordPress</span>
+            <span id="menu-theme-mobile">WordPress</span>
+        </a>
+        <ul class="submenu plugins"></ul>
+    </li>
+    <li><a href="#examples" class="show-examples">Examples</a></li>
+    <li><a href="https://alvarotrigo.com/fullPage/pricing/" class="show-examples">Pricing</a></li>
+    <li>
+        <a rel="noopener" href="https://github.com/alvarotrigo/fullPage.js/#fullpagejs">Docs</a>
+    </li>
+    <li id="menu-contact"><a href="https://alvarotrigo.com/#contact-page">Contact</a></li>
+-->
+
+<script type="text/javascript" src="JS/fullpage.js"></script>
+<script>
+    var myFullpage = new fullpage('#fullpage', {
+		sectionsColor: ['#EE964B', '#4BBFC3', '#3cccdf', '#FAF0CA', '#ccddff']
+	});
+</script>
+
+</body>
+</html>

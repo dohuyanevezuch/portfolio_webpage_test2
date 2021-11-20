@@ -1,0 +1,225 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@400;500;900&display=swap');
+
+@font-face {
+	font-family: 'Architectural'; 
+	src: url('/fonts/Architectural.ttf') format('ttf');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+body{
+    font-family: 'Zen Kurenaido', sans-serif;
+    color: white;
+}
+header{
+    background-color: azure;
+}
+.HomePage{
+    background: linear-gradient(-45deg, #8932db, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-size: 300% 300%;
+}
+.lrng{
+    background:none;
+    margin-top: 0vh;
+}
+.hello{
+    font-weight: 700;
+    font-size: 170px;
+    color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0vh;
+    padding-top: 15vh;   
+}
+
+.My_name{
+    font-weight: 500;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.644);
+    text-align: center;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+.ThisIsMy{
+    font-weight: 400;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.466);
+    text-align: center; 
+    margin-top: 0vh;
+}
+
+
+.MySkill{
+    background: linear-gradient(-45deg, #eed152, #e73c7e);
+    background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+    padding-top: 0vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.arrow-down {
+    margin: auto;
+    width: 38px;
+    height: 100px;
+    margin-top: 4vh;
+}
+.arrow-down span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #fdfeff50;
+    border-right: 5px solid #fdfeff50;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-down span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-down span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+.skl{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content_twotwo{
+    flex-wrap: wrap-reverse;
+}
+.content_threethree{
+    flex-wrap: wrap-reverse;
+}
+.lern{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img{
+    min-width: 300px;
+    max-width: 700px;
+    border-radius: 17px;
+    flex-wrap: wrap;
+}
+.block_content{
+    max-width: 500px;
+}
+.hhh1{
+    font-size: 120px;
+    margin-bottom: 0%;
+}
+
+.ptext{
+    flex-wrap: wrap;
+    margin-top: 0%;
+    font-size: 50px;
+    opacity: 0.4;
+}
+
+
+@media (max-width:1200px){
+    .hhh1{
+        text-align: center;
+    }
+    .ptext{
+        text-align: center;
+    }
+}
+@media (max-width:375px){
+    .hello{
+        font-size: 130px;
+    }
+    .My_name{
+        font-size: 40px;
+    }
+    .ThisIsMy{
+        font-size: 20px;
+    }
+    .img{
+        max-width: 95%;
+    }
+    .hhh1{
+        font-size: 100px;
+    }
+    .ptext{
+        font-size: 35px;
+    }
+    .lrn_DB_title{
+        font-size: 60px;
+    }
+    .lrn_DB{
+        font-size: 25px;
+    }
+    .lrn_js_title{
+        padding-top: 25px;
+        font-size: 60px;
+    }
+    .lrn_js{
+        font-size: 35px;
+    }
+}
+@media (max-width:320px){
+    .hello{
+        font-size: 130px;
+    }
+    .My_name{
+        font-size: 30px;
+    }
+    .ThisIsMy{
+        font-size: 20px;
+    }
+    .img{
+        max-width: 95%;
+    }
+    .hhh1{
+        font-size: 80px;
+    }
+    .ptext{
+        font-size: 35px;
+    }
+    .lrn_DB_title{
+        font-size: 60px;
+    }
+    .lrn_DB{
+        font-size: 23px;
+    }
+    .lrn_js_title{
+        padding-top: 15px;
+        font-size: 55px;
+    }
+    .lrn_js{
+        font-size: 23px;
+    }
+}
